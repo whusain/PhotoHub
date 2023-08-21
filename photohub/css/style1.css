@@ -1,0 +1,96 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+ul.navbar-nav li {
+	padding: 20px;
+}
+
+.image-matter h1 {
+	font-size: 120px;
+	font-weight: 600;
+	line-height: 120px;
+}
+img,
+svg {
+	
+	width: 100%;
+	
+}
+
+h1.heading {
+	font-size: 45px;
+} */
+
+.box1.border.p-5 {
+	padding: 87px;
+	margin: 15px;
+}
+.cst-navbar-nav.navbar-nav li.nav-item a:hover,
+.cst-navbar-nav.navbar-nav li.nav-item a.active {
+	color: red;
+}
+
+
+.cst-navbar-nav .nav-item .nav-link{
+    margin-left: 20px !important;
+    display: inline-block;
+    
+}
+/* .image-matter h1::before {
+	content: "";
+	position: absolute;
+	width: 29%;
+	height: 4px;
+	background-color: black;
+	bottom: -261px;
+	left: 32%;
+	transform: translate(-50%);
+	animation: animate 4s linear infinite;
+} */
+/* body {
+	background: #007bff;
+	background: linear-gradient(to right, #0062e6, #33aeff);
+} */
+
+.bg-image {
+	background-image: url("file:///var/www/html/photohub/images/contactus.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.downlod-image{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    bottom: 5px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration-line: none;
+    box-shadow: inset 0px 0px 5px #fff;
+
+}
+.downlod-image:hover{
+    box-shadow: inset 0px 0px 5px #f10;
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid #f10;
+    transition: 300ms;
+}
+.downlod-image img{
+    width: 40px;
+}
+/* #load_more {
+	cursor: pointer;
+	display: flex;
+	cons
+} */
